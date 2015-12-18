@@ -23,7 +23,7 @@ public class UploadTask : TPTransferTask {
     
     public override init(url: String, params: [String: AnyObject]? = nil) {
         super.init(url: url, params: params)
-        method = .POST
+        method = .PUT
     }
     
     public convenience init(url: String, data: NSData) {
